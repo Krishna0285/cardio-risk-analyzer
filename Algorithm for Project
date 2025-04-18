@@ -1,0 +1,85 @@
+Step 1: Start
+Initialize the system.
+
+Import all necessary Python libraries such as pandas, numpy, scikit-learn, matplotlib, seaborn, and streamlit.
+
+Step 2: Load the Dataset
+Load cardiovascular disease data from a CSV file using pandas.
+
+Step 3: Data Preprocessing
+Check for and handle missing or null values.
+
+Encode categorical variables using one-hot encoding or label encoding.
+
+Normalize/standardize numerical features for consistent model input using StandardScaler.
+
+Step 4: Feature Selection
+Analyze correlations and domain knowledge to select important features (e.g., age, blood pressure, cholesterol).
+
+Define input features (X) and output target (y).
+
+Step 5: Dataset Splitting
+Split the dataset into training set (80%) and testing set (20%) using train_test_split() for model validation.
+
+Step 6: Model Selection
+Select machine learning classifiers for prediction:
+
+Logistic Regression
+
+Support Vector Classifier (SVC)
+
+Step 7: Model Training
+Train both models using the training dataset.
+
+Step 8: Model Evaluation
+Evaluate both models on the test dataset using metrics:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+Step 9: Build the Front-End (Streamlit)
+Use the Streamlit framework to design a web-based user interface.
+
+Create an interactive layout for the user to input health-related parameters.
+
+Step 10: Accept User Inputs
+Collect health inputs from the user such as:
+
+Age
+
+Gender
+
+Systolic/Diastolic blood pressure
+
+Glucose level
+
+Cholesterol level
+
+Weight and Height
+
+Step 11: Preprocess User Input
+Normalize and encode the user input in the same way as the training data.
+
+Reshape and prepare the input for prediction.
+
+Step 12: Make Prediction
+Feed the processed user input to the trained models.
+
+Generate the probability or classification of cardiovascular risk.
+
+Step 13: Display Results
+Show the user:
+
+Whether they are at risk of cardiovascular disease or not.
+
+The probability/percentage of risk.
+
+Suggestions for maintaining a healthy lifestyle (optional).
+
+Step 14: End
+End the program once results are displayed and feedback is given.
